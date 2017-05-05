@@ -28,6 +28,24 @@ dir_path = Entry(root)
 start_btn = Button(root, text = "Stempeln")
 exit_btn = Button(root, text = "Beenden")
 
+#functions
+def leftClickDirBtn(event):
+    print("Durchsuchen")
+    #place code for browsing directories in here
+    #right now it just uses a dummy-function
+
+def leftClickStmpBtn(event):
+    print("Stempeln")
+    #place code for setting a watermark
+
+def leftClickExBtn(event):
+    print("Exit")
+
+#bind functions to buttons
+dir_btn.bind("<Button-1>", leftClickDirBtn)
+start_btn.bind("<Button-1>", leftClickStmpBtn)
+exit_btn.bind("<Button-1>", leftClickExBtn)
+
 #placement
 nlabel.grid(row = 0, sticky = E)
 plabel.grid(row = 1, sticky = E)
