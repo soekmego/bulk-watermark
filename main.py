@@ -39,7 +39,8 @@ def leftClickStmpBtn(event):
     #place code for setting a watermark
 
 def leftClickExBtn(event):
-    print("Exit")
+    print("Beenden")
+    root.quit()
 
 #bind functions to buttons
 dir_btn.bind("<Button-1>", leftClickDirBtn)
