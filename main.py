@@ -32,11 +32,13 @@ exit_btn = Button(root, text = "Beenden")
 def leftClickDirBtn(event):
     print("Durchsuchen")
     #place code for browsing directories in here
-    #right now it just uses a dummy-function
+    #right now it just uses a dummy-function, pls remove or
+    #comment out the print statement
 
 def leftClickStmpBtn(event):
     print("Stempeln")
     #place code for setting a watermark
+    #pls remove print statement
 
 def leftClickExBtn(event):
     print("Beenden")
